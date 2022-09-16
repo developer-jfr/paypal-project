@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Paypal</title>
+</head>
+
+<body>
+    <!---------------------------------- Header Link ---------------------------->
+
+    <header class="header">
+        <div class="header-links">
+            <span>BN systems</span>
+            <div class="header-links-sc">
+                <div class="header-link-underline">
+                    <span>Developer</span>
+                    <span>Help</span>
+                </div>
+                <div class="header-link-img">
+                    <img src="./assets/images/logo.svg" alt="logo">
+                    <p>Shahen Babyan</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!---------------------------------- Navbar  ---------------------------->
+    <nav>
+        <ul>
+            <li class="logo">
+                <img src="./assets/images/paypal.png" alt="paypal">
+            </li>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">Activity</a></li>
+            <li class="items"><a href="#">Pay & Get Paid</a></li>
+            <li class="items"><a href="#">App Center</a></li>
+            <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+    <!---------------------------------- Home  ---------------------------->
+    
+    <section class="home">
+        <div class="mobile-landing"></div>
+     <div class="landing">
+        <h2>All you need for an optimal integration.</h2>
+        <p>Whether you’re a developer, partner or merchant - you’ve come to the right place.</p>
+     </div>
+     <div class="navigation">
+        <span>Developers</span>
+        <span>Partners</span>
+        <span>Merchants</span>
+     </div>
+     <div class="forms">
+        <div class="forms-content">
+            <img src="./assets/images/paypal.png" alt="paypal">
+        <h2>Discover the advantages of parthership</h2>
+        <p>
+            Out Partner Program gives you access to expert advise, marketing exposure and resources to create innovative payment experiences for your customers. 
+        </p>
+        <a href="#">
+            Checkout out our Partner Program
+        </a>
+        <div>
+            <div class="form">
+                <input type="text" id="email" class="form__input" autocomplete="off" placeholder=" ">
+                <label for="email" class="form__label">Email or mobile phone</label>
+              </div>
+              <div class="form">
+                <input type="text" id="email" class="form__input" autocomplete="off" placeholder=" ">
+                <label for="email" class="form__label">Email or mobile phone</label>
+              </div>
+              <div class="form">
+                <input type="text" id="email" class="form__input" autocomplete="off" placeholder=" ">
+                <label for="email" class="form__label">Email or mobile phone</label>
+              </div>
+        </div>
+        <button class="form-btn">Log in</button>
+        </div>
+     </div>
+     <div class="links">
+        <span>Contact Us</span>
+        <span>Privacy</span>
+        <span>Legal</span>
+        <span>Policy Updates</span>
+        <span>Worlwide</span>
+     </div>
+    </section>
+
+    
+    <!------------------------------ Footer -------------------------->
+
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-fs-links">
+                <span>Help</span>
+                <span>Contact</span>
+                <span>Fees</span>
+                <span>Security</span>
+                <span>About</span>
+                <span>Developers</span>
+            </div>
+            <div class="footer-sc-links">
+                <div class="footer-lang">
+                    <span>English</span>
+                    <span>Français</span>
+                    <span>Espagnole</span>
+                    <span>中國人</span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="privacy">
+            <span>Privacy</span>
+            <span>Legal</span>
+            <span>Policy Updates</span>
+        </div>
+        <div class="footer-copyright">
+            <span>Copyright ©1999-2022 Paypal. All rights reserved. <span>| </span> </span>
+            <div>
+                <span>Privacy</span>
+                <span>Legal</span>
+                <span>Policy Updates</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', function () {
+            document.querySelectorAll('.items').forEach(el => {
+                el.classList.toggle('show')
+            })
+            document.querySelector('ul li').classList.toggle('hide');
+        })
+    </script>
+</body>
+
+</html>
